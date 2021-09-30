@@ -1,0 +1,6 @@
+numCorrectas=int(input("Respuestas correctas: \n"))
+numIncorrec=int(input("Respuestas incorrectas: \n"))
+numBlanco=int(input("Respuestas en blanco: \n"))
+puntaje=(numCorrectas*3)
+TotalPreguntas=(numCorrectas-numIncorrec)
+print("Puntaje final: \n",TotalPreguntas)

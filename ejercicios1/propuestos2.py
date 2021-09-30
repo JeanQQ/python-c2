@@ -1,0 +1,6 @@
+horast=int (input("Ingrese las horas trabajadas: \n"))
+dias=int(horast/24)
+semanas=int(dias/7)
+print("Horas trabajadas: \n",horast)
+print("Dias trabajados: \n", dias)
+print("Semanas trabajadas: \n",semanas)
